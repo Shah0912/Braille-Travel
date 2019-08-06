@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Maps</string>
+    <string name="app_name">Braille Travel</string>
     <string name="title_activity_maps">Map</string>
     <string name="get_direction">Get direction</string>
 </resources>
