@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="132dp"
+        android:background="@color/LightRed"
+        android:text="Starting location"
+        android:textSize="49sp" />
+
+    <EditText
+        android:id="@+id/locTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="76dp"
+        android:hint="Location"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/destTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="260dp"
+        android:hint="Destination"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/destination"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:textSize="49sp"
+        android:layout_height="243dp"
+        android:layout_alignParentBottom="true"
+        android:text="Enter Destination"
+        android:background="@color/LightRed"
+        />
+
+    <Button
+        android:id="@+id/toggle"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location"
+        android:layout_marginTop="-393dp"
+        android:background="@color/LightRed"
+        android:elevation="20dp"
+        android:shadowColor="#006699"
+        android:text="go to map page" />
+</RelativeLayout>
